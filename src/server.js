@@ -24,6 +24,10 @@ initializeDb( db => {
   // internal middleware
   app.use(middleware({ config, db }));
 
+  app.get('/', (req, res) => {
+    res.end('Hello World!');
+  });
+
   // api router
   app.use('/api', api({ config, db }));
 

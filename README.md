@@ -21,6 +21,9 @@ cd express-es6-rest-api
 # Install dependencies
 npm install
 
+# Running tests
+npm test
+
 # Start development live-reload server
 PORT=8080 npm run dev
 
