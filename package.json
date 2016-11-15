@@ -24,8 +24,8 @@
       "no-unused-vars": 1
     }
   },
-  "repository": "developit/express-es6-rest-api",
-  "author": "Jason Miller <jason@developit.ca>",
+  "repository": "nystromb/express-es6-rest-api",
+  "author": "Brian Nystrom <bnystrom@8thlight.com>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
